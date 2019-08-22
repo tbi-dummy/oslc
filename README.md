@@ -32,7 +32,7 @@ On completion of import,  package will show as 'Imported' under 'status'.
 https://github.com/tririga-building-insights/object-migration-package/releases/download/v1.0/TBI_TRIRIGA_Package.zip   
 
 ## Verification of Object migration package import: ##      
-### OSLC Api - Get Building details ###
+### OSLC API - Get Building details ###
 1. Get call of building OSLC api with Basic authentication should provide 200 ok reponse code 
 ``` GET http://<tririgaIp:port>/tririga/oslc/spq/TBItriBuilding?oslc.select=* ```
 
@@ -50,7 +50,7 @@ https://github.com/tririga-building-insights/object-migration-package/releases/d
 	"spi:triTimeZonesCL"   
 	"spi:triModifiedSY"    
 
-### OSLC Api - Get Space details ###
+### OSLC API - Get Space details ###
 1. Get call of space OSLC api with Basic authentication should provide 200 ok response code 
 ``` GET http://<tririgaIp:port>/tririga/oslc/spq/TBItriSpace?oslc.select=*,spi:TBItriOrganization{*}&oslc.where=spi:triBuildingPathTX="<BuildingPath>" ```
 
