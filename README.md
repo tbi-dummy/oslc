@@ -1,22 +1,22 @@
 
 # Object Migration Package: #
-Object migration package contains the below list of customized OSLC's and Queries used by TBI to extract data from TRIRIGA. 
-This package needs to be imported to the TRIRIGA intance to which TBI needs to integrate. 
-Object migration Package is build with reference to the out of box business objects and forms provided by TRIRIGA.  
+Object Migration Package contains a list of customized OSLC's (as given below) and queries used by TBI to extract data from TRIRIGA.   
+This package needs to be imported to the TRIRIGA intance to which TBI needs to integrate.   
+Object migration Package is build with reference to the out-of-the-box Business Objects and forms provided by TRIRIGA.  
 
-Query/Reports:  
-  TBI triBuilding - Building details  
-  TBI triSpace - Space details   
-  TBI triSpaceLevelOccupancyAllocation - Organization Allocations details  
+### Query/Reports:  ###
+1. TBI triBuilding - Building details  
+2. TBI triSpace - Space details   
+3. TBI triSpaceLevelOccupancyAllocation - Organization Allocations details  
 
-OSLC Resource Manager:  
-  TBI triBuilding   
-  TBI triSpace    
-  TBI triOrganization 
+### OSLC Resource Manager:   ###
+1. TBI triBuilding   
+2. TBI triSpace    
+3. TBI triOrganization 
 
-OSLC Manager:  
-  TBI triSpaceManagement   
-
+### OSLC Manager:  ###
+1. TBI triSpaceManagement   
+   
 ## Import object migration package: ##
 
 Import object migration package to any new TRIRIGA environment using the below steps:
